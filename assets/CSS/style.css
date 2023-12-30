@@ -1,0 +1,27 @@
+:root{
+    --overlaycolor:rgba(0, 0, 0, 0.5);
+    --activecolor:yellow;
+}
+
+.overlaycolor{
+    background-color: var(--overlaycolor);
+}
+
+.active{
+    color: var(--activecolor) !important;
+}
+
+
+.landing-page{
+    background-image: url(../IMG/Le_Fantome.0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.content{
+    background-color: var(--overlaycolor);
+    color: white;
+    height: 100vh;
+}
